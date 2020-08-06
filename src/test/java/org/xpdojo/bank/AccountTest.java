@@ -28,7 +28,7 @@ public class AccountTest {
         Account account = new Account();
         account.deposit(50);
         account.deposit(50);
-        assertThat(account.balance()).isEqualTo(100);
+        assertThat(account.balance()).isEqualTo(50);
 
     }
 }
